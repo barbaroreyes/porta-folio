@@ -1,6 +1,7 @@
 import React from 'react' ;
 import Navigation from './Navigation'
 import ImageP from '../images/foto-perfil.jpeg'
+import {mobile} from './Responsive'
 import style from 'styled-components';
 
 const Container  =  style.div`

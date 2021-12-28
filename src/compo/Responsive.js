@@ -1,11 +1,18 @@
-import React from 'react'
+import {css} from 'styled-components'
 
-const Responsive = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+export const mobile = (props) => {
+    return css `
+    @media only screen and (max-width:480px){
+        ${props}
+    `
 }
 
-export default Responsive
+export const table = (props) => {
+    return css`
+    @media only screen and (min-width:768px){
+        ${props}
+    `
+}
+
+
+
