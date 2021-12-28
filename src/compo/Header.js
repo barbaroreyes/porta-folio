@@ -10,7 +10,7 @@ display:flex;
 justify-content:space-around;
 align-items:center;
 height:130px;
-${mobile({background:'red'})}
+${mobile({background:'red',justifyContent: 'center'})}
 ${table({background:'blue'})}
 ${medio({background:'grey'})}
 
@@ -19,6 +19,7 @@ const ImageContainer= style.div`
 width : 20%;
 border-radius : 50%;
 margin-left:20px;
+${mobile({width:'70%'})}
 `
 const Profile = style.div`
 display: flex;
@@ -29,12 +30,14 @@ const Name = style.p`
 display: flex;
 font-size : 25px;
 margin-left:0px;
+${mobile({width:'90%',fontSize:'15px',fontWeight:'bold'})}
 `
 const Image = style.img`
 width:40%;
 border-radius : 50%;
-
+${mobile({width:'69%',height:'50px'})}
 `
+
 
 const Header = () => {
   return (
