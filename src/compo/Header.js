@@ -1,7 +1,7 @@
 import React from 'react' ;
 import Navigation from './Navigation'
 import ImageP from '../images/foto-perfil.jpeg'
-import {mobile} from './Responsive'
+import {mobile,table,medio} from './Responsive'
 import style from 'styled-components';
 
 const Container  =  style.div`
@@ -10,7 +10,9 @@ display:flex;
 justify-content:space-around;
 align-items:center;
 height:130px;
-
+${mobile({background:'red'})}
+${table({background:'blue'})}
+${medio({background:'grey'})}
 
 `
 const ImageContainer= style.div`
