@@ -23,14 +23,16 @@ ${mobile({width:'70%'})}
 `
 const Profile = style.div`
 display: flex;
+justify-content:center;
 align-items:center;
 width:70%;
 ${mobile({
     width:'50%',
     flexDirection:'column'
     ,alignItems:'center',
-    justifyContent:'center',
-    padding:'7px',
+    marginTop:'18px'
+   
+    
     
 })}
 `
@@ -38,12 +40,12 @@ const Name = style.p`
 display: flex;
 font-size : 25px;
 margin-left:0px;
-${mobile({width:'93%',fontSize:'18.7px',fontWeight:'bold'})}
+${mobile({width:'71%',fontSize:'18.7px',fontWeight:'bold'})}
 `
 const Image = style.img`
 width:40%;
 border-radius : 50%;
-${mobile({width:'71.5%',})}
+${mobile({width:'65.5%',})}
 `
 
 
