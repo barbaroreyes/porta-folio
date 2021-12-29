@@ -18,6 +18,7 @@ justify-content:space-between;
 flex-direction:column;
 align-items:center;
 cursor:pointer;
+margin-right: 23px;
 ${table({display:'none'})}
 `
 
