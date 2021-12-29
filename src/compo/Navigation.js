@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import {Link} from 'react-router-dom'
 import style from 'styled-components';
 import {mobile , table} from './Responsive'
@@ -27,17 +27,37 @@ border :1px solid #ffff;
 width:100%;
 margin:2px;
 `
-
+const MenuItems = style.div`
+width:55vw;
+position:fixed;
+display:flex;
+justify-content:space-around;
+flex-direction:column;
+height:calc(100vh - 130px)
+margin:0;
+top:10px;
+padding:0;
+font-weight:bold;
+z-index:999;
+transition: all 1s ease;
+${table({display:'none'})}
+`
+const ItemL = style.li`
+color:#ffff;
+list-style: none;
+margin:10px;
+${table({display:'none'})}
+`
 const Navigation = () => {
 
-
+  const [open ,setOpen] = useState(false)
   return (
     <Container>
-      <SandLink>
-       <Line></Line>
-       <Line></Line>
-       <Line></Line>
-      </SandLink>
+      <SandLink onClick={() => setOpen(!open)}>
+                 <Line></Line>
+                 <Line></Line>
+                 <Line></Line>
+                </SandLink>
         <Item>
         <Link to='/'>Home</Link>
         </Item>
@@ -49,6 +69,24 @@ const Navigation = () => {
         <Item>
             <Link to='/contact'>Contact</Link>
         </Item>
+        <MenuItems 
+       onClick={() =>setOpen(false)}
+       style={{left:open ? 
+       '0px':'-50vw'}}>
+         <ItemL ItemL>
+           <Link to="/">Home</Link>
+           </ItemL>
+      <ItemL>
+        <Link  to="/portafolio">Portafolio</Link>
+        </ItemL>
+      <ItemL>
+        <Link  to="/aboutme">AboutMe</Link>
+        </ItemL>
+      <ItemL>
+        <Link  to="/contact">Contact</Link>
+      </ItemL>
+        
+      </MenuItems>
      
       
       

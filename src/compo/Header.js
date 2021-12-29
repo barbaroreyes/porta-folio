@@ -1,4 +1,4 @@
-import React from 'react' ;
+import React,{useState, } from 'react';
 import Navigation from './Navigation'
 import ImageP from '../images/foto-perfil.jpeg'
 import {mobile,table,medio} from './Responsive'
@@ -42,11 +42,12 @@ ${mobile({
 const Name = style.p`
 display: flex;
 font-size : 25px;
-color:#ffff;
+color:black;
 ${mobile({
     width:'71%',
     fontSize:'18.7px',
-    fontWeight:'bold'
+    fontWeight:'bold',
+    color:'#ffff',
 })}
 `
 const Image = style.img`
@@ -62,7 +63,8 @@ const Header = () => {
      <Profile>
      <ImageContainer>
     <Image src ={ImageP} alt="" />
-    </ImageContainer><Name>Barbaro Reyes</Name>
+    </ImageContainer>
+    <Name>Barbaro Reyes</Name>
     </Profile>
      <Navigation/>
     </Container>
