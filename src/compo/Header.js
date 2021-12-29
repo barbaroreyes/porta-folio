@@ -30,7 +30,7 @@ ${mobile({
     width:'50%',
     flexDirection:'column'
     ,alignItems:'center',
-    marginTop:'18px'
+    marginTop:'28px'
    
     
     
