@@ -1,14 +1,17 @@
 import React,{useState} from 'react'
 import {Link} from 'react-router-dom'
 import style from 'styled-components';
-import {mobile , table} from './Responsive'
+import {mobile , table} from './Responsive';
+
 const Container = style.ul `
 display:flex;
 `
 const Item = style.li`
 list-style: none;
 margin:10px;
-${mobile({display:'none'})}
+${mobile({
+  display:'none'
+})}
 `
 const SandLink = style.div `
 width: 30px;

@@ -1,5 +1,4 @@
-import React,{useState, } from 'react';
-import Navigation from './Navigation'
+import Navigation from './Navigation';
 import ImageP from '../images/foto-perfil.jpeg'
 import {mobile,table,medio} from './Responsive'
 import style from 'styled-components';
@@ -11,7 +10,7 @@ align-items:center;
 height:130px;
 ${mobile({
     background:' #864141',
-    padding:'20px'
+    padding:'20px',
 })}
 ${table({background:'blue'})}
 ${medio({background:'grey'})}
@@ -53,7 +52,9 @@ ${mobile({
 const Image = style.img`
 width:40%;
 border-radius : 50%;
-${mobile({width:'65.5%',})}
+${mobile({
+    width:'65.5%'
+})}
 `
 
 
