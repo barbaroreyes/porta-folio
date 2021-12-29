@@ -51,7 +51,11 @@ list-style: none;
 margin:10px;
 ${table({display:'none'})}
 `
-const StyleLink = style(Link)
+const StyleLink = style(Link)`
+ color:black;
+ text-decoration: none;
+ ${mobile({color:'#ffff'})}
+`
 const Navigation = () => {
 
   const [open ,setOpen] = useState(false)
@@ -78,16 +82,16 @@ const Navigation = () => {
        style={{left:open ? 
        '0px':'-50vw'}}>
          <ItemL ItemL>
-           <Link to="/">Home</Link>
+           <StyleLink to="/">Home</StyleLink>
            </ItemL>
       <ItemL>
-        <Link  to="/portafolio">Portafolio</Link>
+        <StyleLink  to="/portafolio">Portafolio</StyleLink>
         </ItemL>
       <ItemL>
-        <Link  to="/aboutme">AboutMe</Link>
+        <StyleLink  to="/aboutme">AboutMe</StyleLink>
         </ItemL>
       <ItemL>
-        <Link  to="/contact">Contact</Link>
+        <StyleLink  to="/contact">Contact</StyleLink>
       </ItemL>
         
       </MenuItems>
