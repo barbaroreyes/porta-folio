@@ -51,6 +51,7 @@ list-style: none;
 margin:10px;
 ${table({display:'none'})}
 `
+const StyleLink = style(Link)
 const Navigation = () => {
 
   const [open ,setOpen] = useState(false)
@@ -62,15 +63,15 @@ const Navigation = () => {
                  <Line></Line>
                 </SandLink>
         <Item>
-        <Link to='/'>Home</Link>
+        <StyleLink to='/'>Home</StyleLink>
         </Item>
         <Item>
-        <Link to='/portafolio'>Potafolio</Link>
+        <StyleLink to='/portafolio'>Potafolio</StyleLink>
         </Item>
         <Item>
-            <Link to='/aboutme'>AboutMe</Link></Item>
+            <StyleLink to='/aboutme'>AboutMe</StyleLink></Item>
         <Item>
-            <Link to='/contact'>Contact</Link>
+            <StyleLink to='/contact'>Contact</StyleLink>
         </Item>
         <MenuItems 
        onClick={() =>setOpen(false)}
