@@ -5,12 +5,14 @@ import {mobile,table,medio} from './Responsive'
 import style from 'styled-components';
 
 const Container  =  style.div`
-border : 1px solid black;
 display:flex;
 justify-content:center;
 align-items:center;
 height:130px;
-${mobile({background:'red' ,padding:'20px'})}
+${mobile({
+    background:' #864141',
+    padding:'20px'
+})}
 ${table({background:'blue'})}
 ${medio({background:'grey'})}
 
@@ -40,8 +42,12 @@ ${mobile({
 const Name = style.p`
 display: flex;
 font-size : 25px;
-margin-left:0px;
-${mobile({width:'71%',fontSize:'18.7px',fontWeight:'bold'})}
+color:#ffff;
+${mobile({
+    width:'71%',
+    fontSize:'18.7px',
+    fontWeight:'bold'
+})}
 `
 const Image = style.img`
 width:40%;
