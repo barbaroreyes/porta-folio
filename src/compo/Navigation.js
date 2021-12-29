@@ -22,6 +22,7 @@ flex-direction:column;
 align-items:center;
 cursor:pointer;
 margin-right: 23px;
+
 ${table({display:'none'})}
 `
 
@@ -54,7 +55,10 @@ ${table({display:'none'})}
 const StyleLink = style(Link)`
  color:black;
  text-decoration: none;
- ${mobile({color:'#ffff'})}
+ ${mobile({
+   color:'#ffff',
+   padding: '10px',
+  })}
 `
 const Navigation = () => {
 
@@ -85,7 +89,7 @@ const Navigation = () => {
            <StyleLink to="/">Home</StyleLink>
            </ItemL>
       <ItemL>
-        <StyleLink  to="/portafolio">Portafolio</StyleLink>
+        <StyleLink  to="/portafolio">Projects</StyleLink>
         </ItemL>
       <ItemL>
         <StyleLink  to="/aboutme">AboutMe</StyleLink>

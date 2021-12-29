@@ -32,6 +32,7 @@ ${mobile({
     flexDirection:'column'
     ,alignItems:'center',
     marginTop:'28px',
+    marginLeft:'60px'
    
    
     
