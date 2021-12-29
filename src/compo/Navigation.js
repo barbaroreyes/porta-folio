@@ -21,7 +21,7 @@ justify-content:space-between;
 flex-direction:column;
 align-items:center;
 cursor:pointer;
-margin-right: 23px;
+margin-right: -11px;
 
 ${table({display:'none'})}
 `
