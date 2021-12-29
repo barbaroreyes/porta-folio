@@ -7,10 +7,10 @@ import style from 'styled-components';
 const Container  =  style.div`
 border : 1px solid black;
 display:flex;
-justify-content:space-around;
+justify-content:center;
 align-items:center;
 height:130px;
-${mobile({background:'red' ,padding:'10px'})}
+${mobile({background:'red' ,padding:'20px'})}
 ${table({background:'blue'})}
 ${medio({background:'grey'})}
 
@@ -30,7 +30,8 @@ ${mobile({
     width:'50%',
     flexDirection:'column'
     ,alignItems:'center',
-    marginTop:'28px'
+    marginTop:'28px',
+   
    
     
     
