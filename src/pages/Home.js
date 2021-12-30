@@ -5,7 +5,7 @@ const Container  =  style.div`
 border : 1px solid black;
 display:flex;
 height:100vh;
-margin:7px;
+margin:2px;
 `
 const Left = style.div`
 display:flex;
@@ -28,20 +28,19 @@ display:flex;
 justify-content:center;
 align-item:center;
 width:80%;
-margin:10px;
+margin:5px;
 height:45vh;
+${mobile({width:'90%',padding:'7px'})}
 `
 const H2 = style.h4`
-font-size: 20px;
+font-size: 18px;
 border: 1px solid black;
 ${mobile({
-  width:'8100%'})}
+  width:'100%',padding:'1px',fontSize:'18px'})}
 `
 const Text= style.p`
 font-size: 15px;
 padding:5px;
-
-
 `
 
 const Home = () => {
@@ -49,8 +48,8 @@ const Home = () => {
     <Container>
       <Left>
         <BarSkill>
-          <H2>
-          Technologies
+           <H2>
+           Technologies
             <Text>React</Text>
             <Text>JavaScript</Text>
             <Text>Typescript</Text>
@@ -58,8 +57,6 @@ const Home = () => {
             <Text>Mongo DB</Text>
             <Text>NodeJs</Text>
             <Text>AWS</Text>
-            
-
           </H2>
          
 
@@ -70,11 +67,10 @@ const Home = () => {
           <Text>Styled-Components</Text>
           <Text>Tachyons</Text>
           </H2>
-         
-          </BarSkill>
+         </BarSkill>
        </Left>
       <Right>
-      Right
+     Lasts Works
       </Right>
     </Container>
   )
