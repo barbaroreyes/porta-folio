@@ -26,16 +26,13 @@ const Profile = style.div`
 display: flex;
 justify-content:center;
 align-items:center;
-width:70%;
+width:50%;
 ${mobile({
     width:'50%',
     flexDirection:'column'
     ,alignItems:'center',
     marginTop:'28px',
-    marginLeft:'60px'
-   
-   
-    
+    marginLeft:'60px',  
     
 })}
 `
