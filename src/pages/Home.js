@@ -42,6 +42,7 @@ const Text= style.p`
 font-size: 16px;
 padding:3px;
 border: 1px solid black;
+border-radius:10px 10px;
 
 `
 
