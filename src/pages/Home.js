@@ -35,7 +35,7 @@ const H2 = style.h4`
 font-size: 20px;
 border: 1px solid black;
 ${mobile({
-  width:'8100%',padding:'2px'})}
+  width:'8100%'})}
 `
 const Text= style.p`
 font-size: 15px;
