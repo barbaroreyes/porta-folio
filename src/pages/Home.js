@@ -66,6 +66,9 @@ const Home = () => {
           <Text>CSS3</Text>
           <Text>Styled-Components</Text>
           <Text>Tachyons</Text>
+          <Text>Github</Text>
+          <Text>Mocha and  Chai</Text>
+          <Text>Jest</Text>
           </H2>
          </BarSkill>
        </Left>
