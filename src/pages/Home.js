@@ -35,7 +35,7 @@ const H2 = style.h4`
 font-size: 20px;
 border: 1px solid black;
 ${mobile({
-  width:'80%',padding:'4px'})}
+  width:'8100%',padding:'2px'})}
 `
 const Text= style.p`
 font-size: 15px;
@@ -50,7 +50,7 @@ const Home = () => {
       <Left>
         <BarSkill>
           <H2>
-          Technos
+          Technologies
             <Text>React</Text>
             <Text>JavaScript</Text>
             <Text>Typescript</Text>
