@@ -39,7 +39,7 @@ ${mobile({
   width:'100%',padding:'3px',fontSize:'22px'})}
 `
 const Text= style.p`
-font-size: 15px;
+font-size: 17px;
 padding:1px;
 `
 
