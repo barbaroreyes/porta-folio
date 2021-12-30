@@ -34,13 +34,15 @@ ${mobile({width:'90%',padding:'7px'})}
 `
 const H2 = style.h4`
 font-size: 18px;
-border: 1px solid black;
+
 ${mobile({
   width:'100%',padding:'3px',fontSize:'22px'})}
 `
 const Text= style.p`
 font-size: 16px;
-padding:1px;
+padding:3px;
+border: 1px solid black;
+
 `
 
 const Home = () => {
