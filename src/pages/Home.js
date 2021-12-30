@@ -3,7 +3,7 @@ import style from 'styled-components';
 import {mobile} from '../compo/Responsive'
 const Container  =  style.div`
 display:flex;
-height:77vh;
+height:100vh;
 background:rgb(231,221,200)
 `
 const Left = style.div`
