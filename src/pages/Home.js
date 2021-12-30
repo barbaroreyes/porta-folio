@@ -28,7 +28,7 @@ justify-content:center;
 align-item:center;
 width:80%;
 margin:2px;
-height:40vh;
+height:60vh;
 ${mobile({
   width:'80%',
   padding:'7px'
