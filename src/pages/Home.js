@@ -6,6 +6,7 @@ border : 1px solid black;
 display:flex;
 height:100vh;
 margin:2px;
+background:rgb(231,221,200)
 `
 const Left = style.div`
 display:flex;
@@ -13,7 +14,7 @@ justify-content : center;
 flex-direction: column;
 align-items:center;
 width:50%;
-border : 1px solid black;
+
 `
 const Right = style.div`
 display:flex;
@@ -34,7 +35,7 @@ ${mobile({width:'90%',padding:'7px'})}
 `
 const H2 = style.h4`
 font-size: 18px;
-
+color:#864141;
 ${mobile({
   width:'100%',padding:'3px',fontSize:'22px'})}
 `
@@ -43,7 +44,9 @@ font-size: 16px;
 padding:3px;
 border: 1px solid black;
 border-radius:10px 10px;
-
+background:#864141;
+color:#ffff;
+// ;
 `
 
 const Home = () => {
