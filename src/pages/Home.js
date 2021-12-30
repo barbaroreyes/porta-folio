@@ -2,16 +2,14 @@ import React from 'react'
 import style from 'styled-components';
 import {mobile} from '../compo/Responsive'
 const Container  =  style.div`
-border : 1px solid black;
 display:flex;
-height:100vh;
-margin:2px;
+height:77vh;
 background:rgb(231,221,200)
 `
 const Left = style.div`
 display:flex;
-justify-content : center;
-flex-direction: column;
+justify-content:center;
+flex-direction:column;
 align-items:center;
 width:50%;
 
@@ -21,7 +19,7 @@ display:flex;
 justify-content:space-around;
 align-items:center;
 width:50%;
-border : 1px solid black;
+
 `
 const BarSkill = style.div`
 text-align:center;
@@ -29,24 +27,25 @@ display:flex;
 justify-content:center;
 align-item:center;
 width:80%;
-margin:5px;
-height:45vh;
-${mobile({width:'90%',padding:'7px'})}
+margin:2px;
+height:38vh;
+${mobile({
+  width:'80%',
+  padding:'7px'
+})}
 `
 const H2 = style.h4`
 font-size: 18px;
 color:#864141;
 ${mobile({
-  width:'100%',padding:'3px',fontSize:'22px'})}
+  width:'100%',padding:'4px',fontSize:'22px'})}
 `
 const Text= style.p`
 font-size: 16px;
 padding:3px;
-border: 1px solid black;
 border-radius:10px 10px;
 background:#864141;
 color:#ffff;
-// ;
 `
 
 const Home = () => {
