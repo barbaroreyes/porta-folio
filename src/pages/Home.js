@@ -40,7 +40,7 @@ ${mobile({
 `
 const Text= style.p`
 font-size: 15px;
-padding:5px;
+padding:1px;
 `
 
 const Home = () => {
