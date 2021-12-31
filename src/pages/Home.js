@@ -1,24 +1,30 @@
 import React from 'react'
 import style from 'styled-components';
-import {mobile} from '../compo/Responsive'
+import Slide from '../compo/Slider'
+import {mobile} from '../compo/Responsive';
+
 const Container  =  style.div`
 display:flex;
 height:100vh;
-background:rgb(231,221,200)
+
 `
 const Left = style.div`
 display:flex;
 justify-content:center;
-flex-direction:column;
+flex-direction:row;
 align-items:center;
-width:50%;
-
+width:48.9%;background:rgb(231,221,200);
+${mobile({
+  flexDirection:'column'
+})}
 `
 const Right = style.div`
 display:flex;
 justify-content:space-around;
 align-items:center;
-width:50%;
+width:60%;
+background:rgb(231,221,200);
+
 
 `
 const BarSkill = style.div`
@@ -78,7 +84,7 @@ const Home = () => {
          </BarSkill>
        </Left>
       <Right>
-     Lasts Works
+      <Slide/>
       </Right>
     </Container>
   )

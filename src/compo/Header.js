@@ -8,6 +8,7 @@ display:flex;
 justify-content:center;
 align-items:center;
 height:130px;
+background:#864141;
 ${mobile({
     background:' #864141',
     padding:'20px',
