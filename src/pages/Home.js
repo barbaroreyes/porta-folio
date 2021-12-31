@@ -15,7 +15,8 @@ flex-direction:row;
 align-items:center;
 width:100%;background:rgb(231,221,200);
 ${mobile({
-  flexDirection:'column'
+  flexDirection:'column',
+  margin:'20px'
 })}
 `
 const Right = style.div`
