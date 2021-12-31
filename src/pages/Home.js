@@ -13,7 +13,7 @@ display:flex;
 justify-content:center;
 flex-direction:row;
 align-items:center;
-width:48.9%;background:rgb(231,221,200);
+width:100%;background:rgb(231,221,200);
 ${mobile({
   flexDirection:'column'
 })}
@@ -69,9 +69,10 @@ const Home = () => {
             <Text>NodeJs</Text>
             <Text>AWS</Text>
           </H2>
-         
-
-        </BarSkill>
+         </BarSkill>
+         <Right>
+      <Slide/>
+      </Right>
         <BarSkill>
           <H2>Tools
           <Text>CSS3</Text>
@@ -83,9 +84,7 @@ const Home = () => {
           </H2>
          </BarSkill>
        </Left>
-      <Right>
-      <Slide/>
-      </Right>
+    
     </Container>
   )
 }
