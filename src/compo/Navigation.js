@@ -55,9 +55,12 @@ ${table({display:'none'})}
 const StyleLink = style(Link)`
  color:black;
  text-decoration: none;
+ font-family: 'Island Moments', cursive;
  ${mobile({
    color:'#ffff',
-   padding: '10px',
+   padding: '7px',
+   fontSize:'18px',
+   margin: '0px'
   })}
 `
 const Navigation = () => {
