@@ -11,7 +11,6 @@ import './App.css';
 
 
 const Container = style.div`
-border: 3px solid black;
 
 `
 

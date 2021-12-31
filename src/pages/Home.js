@@ -18,7 +18,6 @@ width:100%;
 background:rgb(231,221,200);
 ${mobile({
   flexDirection:'column',
-  margin:'1px'
 })}
 `
 const Right = style.div`
@@ -31,7 +30,6 @@ background:rgb(231,221,200);
 
 `
 const BarSkill = style.div`
-text-align:center;
 display:flex;
 flex-wrap:wrap;
 justify-content:center;
@@ -62,6 +60,7 @@ ${mobile({
   color:'#864141',
   fontWeight:'bold'
 })}
+
 `
 
 const Home = () => {

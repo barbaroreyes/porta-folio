@@ -16,16 +16,12 @@ const Slider = () => {
   return (
     <Container>
         <Carousel infiniteLoop autoPlay>
-    
-        
-          <Image src='https://images.unsplash.com/photo-1542634093-e0198d4d1e46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80' alt='pict' />
-          <Image src='https://images.unsplash.com/photo-1438557068880-c5f474830377?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80' alt='pict' />
-          <Image src='https://images.unsplash.com/photo-1625923359032-41feba792010?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1458&q=80' alt='pict' />
-       
-             
-        
-     
-     </Carousel>
+        <Image src='https://finalappchinchorro0029dd132ee54bd4b414de81bee3b82034-dev.s3.amazonaws.com/public/images/app-store-beers+2.png' alt='pict' />
+        <Image src='https://finalappchinchorro0029dd132ee54bd4b414de81bee3b82034-dev.s3.amazonaws.com/public/images/elchinchorro-picture.png' alt='pict' />
+        <Image src='https://finalappchinchorro0029dd132ee54bd4b414de81bee3b82034-dev.s3.amazonaws.com/public/images/pets-pictures.png' alt='pict' />
+    <Image src='https://finalappchinchorro0029dd132ee54bd4b414de81bee3b82034-dev.s3.amazonaws.com/public/images/app-movie.png' alt='pict'/>
+    <Image src='https://finalappchinchorro0029dd132ee54bd4b414de81bee3b82034-dev.s3.amazonaws.com/public/images/jewlery.png' alt='pict'/>
+       </Carousel>
     </Container>
   )
 }
