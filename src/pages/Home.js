@@ -35,6 +35,7 @@ justify-content:center;
 align-item:center;
 margin:2px;
 padding:60px;
+height:75.5vh;
 ${mobile({
   width:'80%',
   height:'87vh',

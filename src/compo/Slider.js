@@ -2,7 +2,7 @@ import React from 'react';
 import style from 'styled-components';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import {Carousel} from 'react-responsive-carousel'
-
+import {mobile} from '../compo/Responsive'
 const Container = style.div`
 width:100%;
 `
@@ -10,6 +10,7 @@ width:100%;
 const Image = style.img`
 width: auto;
 border-radius: 20px 20px;
+${mobile({width: '400px'})}
 `
 
 const Slider = () => {
