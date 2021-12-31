@@ -3,9 +3,10 @@ import style from 'styled-components';
 import Slide from '../compo/Slider'
 import {mobile} from '../compo/Responsive';
 import {useNavigate} from 'react-router-dom'
-
+import Typewriter from 'typewriter-effect'
 const Container  =  style.div`
 width:100%;
+
 
 ${mobile({height:'89vh'})}
 
@@ -23,7 +24,6 @@ ${mobile({
 `
 const Right = style.div`
 display:flex;
-
 width:38%;
 background:rgb(231,221,200);
 
@@ -70,7 +70,9 @@ const Home = () => {
   const history = useNavigate()
   return (
     <Container>
+      
       <Left>
+        
         <BarSkill>
             <Text onClick={()=> history('/portafolio')}>React</Text>
             <Text>JavaScript</Text>
@@ -85,7 +87,7 @@ const Home = () => {
          </BarSkill>
       
        </Left>
-    
+       <Typewriter/>{""}
     </Container>
   )
 }
