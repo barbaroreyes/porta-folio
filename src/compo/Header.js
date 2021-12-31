@@ -43,8 +43,8 @@ font-size : 25px;
 color:black;
 font-family: 'Island Moments', cursive;
 ${mobile({
-    width:'71%',
-    fontSize:'29.5px',
+    width:'80%',
+    fontSize:'30px',
     fontWeight:'bold',
     color:'#ffff',
     
