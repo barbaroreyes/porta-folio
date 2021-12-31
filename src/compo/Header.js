@@ -41,11 +41,13 @@ const Name = style.p`
 display: flex;
 font-size : 25px;
 color:black;
+font-family: 'Island Moments', cursive;
 ${mobile({
     width:'71%',
-    fontSize:'18.7px',
+    fontSize:'29.5px',
     fontWeight:'bold',
     color:'#ffff',
+    
 })}
 `
 const Image = style.img`

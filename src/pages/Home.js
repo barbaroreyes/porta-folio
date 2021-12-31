@@ -6,6 +6,7 @@ import {mobile} from '../compo/Responsive';
 const Container  =  style.div`
 display:flex;
 height:120vh;
+${mobile({height:'79vh'})}
 
 `
 const Left = style.div`
@@ -42,20 +43,23 @@ ${mobile({
 })}
 `
 const H2 = style.h4`
-font-size: 18px;
+font-size: 28px;
 color:#864141;
+font-family: 'Island Moments', cursive;
 ${mobile({
-  width:'100%',
-  padding:'4px',
-  fontSize:'22px'
+  width:'50%',
+  padding:'1px',
+  fontSize:'45px'
 })}
 `
 const Text= style.p`
-font-size: 16px;
+font-size: 15px;
 padding:3px;
 border-radius:10px 10px;
 background:#864141;
 color:#ffff;
+font-family: 'Island Moments', cursive;
+
 `
 
 const Home = () => {
@@ -77,7 +81,7 @@ const Home = () => {
          <Right>
       <Slide/>
       </Right>
-        <BarSkill>
+        {/* <BarSkill>
           <H2>Tools
           <Text>CSS3</Text>
           <Text>Styled-Components</Text>
@@ -86,7 +90,7 @@ const Home = () => {
           <Text>Mocha and  Chai</Text>
           <Text>Jest</Text>
           </H2>
-         </BarSkill>
+         </BarSkill> */}
        </Left>
     
     </Container>
