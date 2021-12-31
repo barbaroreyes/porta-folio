@@ -72,14 +72,15 @@ const Home = () => {
     <Container>
       
       <Left>
-      <Typewriter style={{color:'red'}}
+      <Typewriter 
+      options={{autoStart:true,loop:true,delay:60}}
       onInit={(typewriter)=>{
         typewriter
       
-        .typeString('Hello Friends')
-        .pauseFor(1000)
+        .typeString('Full Stack')
+        .pauseFor(2500)
         .deleteAll()
-        .typeString('Welcome')
+        .typeString('Software   Developer')
         .start()
       }}
       />
