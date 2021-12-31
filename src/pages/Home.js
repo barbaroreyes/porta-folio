@@ -73,7 +73,7 @@ const Home = () => {
       
       <Left>
       <Typewriter 
-      options={{autoStart:true,loop:true,delay:60}}
+      options={{autoStart:true,loop:true,delay:75}}
       onInit={(typewriter)=>{
         typewriter
       
