@@ -4,8 +4,8 @@ import Slide from '../compo/Slider'
 import {mobile} from '../compo/Responsive';
 
 const Container  =  style.div`
-display:flex;
-height:90vh;
+width:100%;
+
 ${mobile({height:'89vh'})}
 
 `
@@ -37,7 +37,8 @@ margin:2px;
 padding:60px;
 ${mobile({
   width:'80%',
-  height:'75vh'
+  height:'87vh',
+  padding:'10px',
 })}
 `
 
