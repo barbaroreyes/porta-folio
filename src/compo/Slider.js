@@ -1,19 +1,12 @@
 import React from 'react';
 import style from 'styled-components';
-import {mobile} from '../compo/Responsive'
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import {Carousel} from 'react-responsive-carousel'
 
 const Container = style.div`
 width:100%;
-
-
 `
-const BoxImage = style.div`
- width:80%;
- height:100vh;
-border-radius: 20px 20px;
-`
+
 const Image = style.img`
 width: auto;
 border-radius: 20px 20px;
