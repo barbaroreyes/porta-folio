@@ -72,6 +72,17 @@ const Home = () => {
     <Container>
       
       <Left>
+      <Typewriter style={{color:'red'}}
+      onInit={(typewriter)=>{
+        typewriter
+      
+        .typeString('Hello Friends')
+        .pauseFor(1000)
+        .deleteAll()
+        .typeString('Welcome')
+        .start()
+      }}
+      />
         
         <BarSkill>
             <Text onClick={()=> history('/portafolio')}>React</Text>
@@ -86,8 +97,10 @@ const Home = () => {
             <Text>AWS</Text>
          </BarSkill>
       
+      
        </Left>
-       <Typewriter/>{""}
+       
+       
     </Container>
   )
 }
