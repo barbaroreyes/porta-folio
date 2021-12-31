@@ -16,7 +16,7 @@ align-items:center;
 width:100%;background:rgb(231,221,200);
 ${mobile({
   flexDirection:'column',
-  margin:'20px'
+  margin:'1px'
 })}
 `
 const Right = style.div`
@@ -45,7 +45,10 @@ const H2 = style.h4`
 font-size: 18px;
 color:#864141;
 ${mobile({
-  width:'100%',padding:'4px',fontSize:'22px'})}
+  width:'100%',
+  padding:'4px',
+  fontSize:'22px'
+})}
 `
 const Text= style.p`
 font-size: 16px;
