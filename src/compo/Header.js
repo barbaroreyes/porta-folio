@@ -5,10 +5,11 @@ import style from 'styled-components';
 
 const Container  =  style.div`
 display:flex;
-justify-content:center;
+justify-content:space-between;
 align-items:center;
 height:130px;
 background:#864141;
+
 ${mobile({
     background:' #864141',
     padding:'20px',
@@ -39,8 +40,8 @@ ${mobile({
 `
 const Name = style.p`
 display: flex;
-font-size : 25px;
-color:black;
+font-size : 95px;
+color:#ffff;
 font-family: 'Island Moments', cursive;
 ${mobile({
     width:'75%',
