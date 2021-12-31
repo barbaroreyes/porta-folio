@@ -50,7 +50,7 @@ ${table({display:'none'})}
 const ItemL = style.li`
 color:#ffff;
 list-style: none;
-margin:10px;
+margin:4px;
 ${table({display:'none'})}
 `
 const StyleLink = style(Link)`;
@@ -61,8 +61,8 @@ font-size:52px;
  margin:20px;
  ${mobile({
    color:'#ffff',
-   padding: '7px',
-   fontSize:'18px',
+   padding: '5px',
+   fontSize:'28px',
    margin: '0px'
   })}
 `
