@@ -11,6 +11,7 @@ height:130px;
 background:#864141;
 
 ${mobile({
+    justifyContent: 'center',
     background:' #864141',
     padding:'20px',
 })}
