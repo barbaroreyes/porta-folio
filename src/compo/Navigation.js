@@ -7,6 +7,7 @@ const Container = style.ul `
 display:flex;
 `
 const Item = style.li`
+
 list-style: none;
 margin:10px;
 ${mobile({
@@ -52,10 +53,12 @@ list-style: none;
 margin:10px;
 ${table({display:'none'})}
 `
-const StyleLink = style(Link)`
- color:black;
+const StyleLink = style(Link)`;
+font-size:52px;
+ color:#ffff;
  text-decoration: none;
  font-family: 'Island Moments', cursive;
+ margin:20px;
  ${mobile({
    color:'#ffff',
    padding: '7px',
