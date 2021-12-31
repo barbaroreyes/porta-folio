@@ -2,6 +2,7 @@ import React from 'react'
 import style from 'styled-components';
 import Slide from '../compo/Slider'
 import {mobile} from '../compo/Responsive';
+import {useNavigate} from 'react-router-dom'
 
 const Container  =  style.div`
 width:100%;
@@ -66,11 +67,12 @@ ${mobile({
 `
 
 const Home = () => {
+  const history = useNavigate()
   return (
     <Container>
       <Left>
         <BarSkill>
-            <Text>React</Text>
+            <Text onClick={()=> history('/portafolio')}>React</Text>
             <Text>JavaScript</Text>
             <Text>Typescript</Text>
             <Right>
