@@ -49,7 +49,7 @@ align-items:center;
 font-size: 80px;
 padding:5px;
 border-radius:10px 10px;
-color:#ffff;
+color:#864141;
 font-weight:bold;
 font-family: 'Island Moments', cursive;
 ${mobile({
