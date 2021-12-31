@@ -81,6 +81,7 @@ const Home = () => {
         .pauseFor(2500)
         .deleteAll()
         .typeString('Software   Developer')
+        .pauseFor(3500)
         .start()
       }}
       />
