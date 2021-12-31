@@ -7,6 +7,10 @@ display:flex;
 justify-content:space-around;
 align-items:center;
 height:50px;
+font-family: 'Island Moments', cursive;
+font-size:50px;
+background:#864141;
+color:#ffff;
 `
 const Footer = () => {
   return (
