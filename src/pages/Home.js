@@ -5,7 +5,7 @@ import {mobile} from '../compo/Responsive';
 
 const Container  =  style.div`
 display:flex;
-height:80vh;
+height:90vh;
 ${mobile({height:'89vh'})}
 
 `
@@ -22,9 +22,8 @@ ${mobile({
 `
 const Right = style.div`
 display:flex;
-justify-content:space-around;
-align-items:center;
-width:60%;
+
+width:38%;
 background:rgb(231,221,200);
 
 
@@ -35,7 +34,7 @@ flex-wrap:wrap;
 justify-content:center;
 align-item:center;
 margin:2px;
-height:60vh;
+padding:60px;
 ${mobile({
   width:'80%',
   height:'75vh'
@@ -43,14 +42,15 @@ ${mobile({
 `
 
 const Text= style.span`
+width: 10%;
 display:flex;
 justify-content:center;
 align-items:center;
-font-size: 15px;
-padding:3px;
+font-size: 80px;
+padding:5px;
 border-radius:10px 10px;
-background:#864141;
 color:#ffff;
+font-weight:bold;
 font-family: 'Island Moments', cursive;
 ${mobile({
   width:'30%',
@@ -78,19 +78,8 @@ const Home = () => {
             <Text>Mongo DB</Text>
             <Text>NodeJs</Text>
             <Text>AWS</Text>
-  
          </BarSkill>
       
-        {/* <BarSkill>
-          <H2>Tools
-          <Text>CSS3</Text>
-          <Text>Styled-Components</Text>
-          <Text>Tachyons</Text>
-          <Text>Github</Text>
-          <Text>Mocha and  Chai</Text>
-          <Text>Jest</Text>
-          </H2>
-         </BarSkill> */}
        </Left>
     
     </Container>
