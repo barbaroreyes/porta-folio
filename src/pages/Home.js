@@ -6,7 +6,7 @@ import {mobile} from '../compo/Responsive';
 const Container  =  style.div`
 display:flex;
 height:120vh;
-${mobile({height:'85vh'})}
+${mobile({height:'88vh'})}
 
 `
 const Left = style.div`
